@@ -4,3 +4,8 @@ Test: no
 ---
 !1 Test suite X
 !contents -R2 -g -p -f -h
+
+!pomFile ../pom.xml@compile
+
+!define slim.port {0}
+!define TEST_SYSTEM {slim}
