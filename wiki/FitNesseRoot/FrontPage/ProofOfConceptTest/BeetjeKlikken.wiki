@@ -1,6 +1,7 @@
 ---
 Test
 ---
-|script                     |
-|open|http://localhost:7888/|
-|wait|10      |seconds      |
+|script                                                          |
+|open |http://localhost:7888/                                    |
+|wait |3       |seconds                                          |
+|check|value of|xpath=//*/a[text()="FitNesse-Test"]|FITNESSE-TEST|
