@@ -1,0 +1,5 @@
+---
+Test
+---
+|script                     |
+|open|http://localhost:7888/|
