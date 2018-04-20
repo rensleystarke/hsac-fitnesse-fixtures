@@ -3,3 +3,4 @@ Test
 ---
 |script                     |
 |open|http://localhost:7888/|
+|wait|10      |seconds      |
